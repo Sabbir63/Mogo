@@ -1,0 +1,372 @@
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {}
+
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .navbar-light .navbar-toggler-icon {
+	 background-image: ; 
+}
+    
+    .navbar-toggler-icon {
+	background: ;
+	border-radius: ;
+	border: ;
+}
+    
+    
+    
+    
+    
+
+    .navbar {
+        padding: 30px !important;
+    }
+
+    .navbar-toggler.collapsed {
+        border: none;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 20px 38px;
+        text-align: center;
+        background: currentColor;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before {
+        left: 224px;
+        width: 25%;
+    }
+
+
+    .banner-text{
+        margin: -70px 0;
+    }
+
+    .banner-text h1 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+
+
+    .banner-text h1::before {
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+
+    .but-on {
+        padding-left: 8px;
+    }
+
+    .img-fluid {
+        width: 100%;
+        padding-bottom: 48px;
+    }
+
+
+
+    .overlay {
+        width: 100%;
+        height: 65%;
+    }
+
+    .icon-text-area {
+        padding-bottom: 0px;
+    }
+
+    .icon {
+        font-size: 30px;
+        color: #25360b;
+    }
+
+    .left-arrow.slick-arrow {
+        margin: 0 -40px;
+    }
+
+    .right-arrow.slick-arrow {
+        margin: 0 23px;
+    }
+
+    .counter-up {
+        padding: 25px 0;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        display: none !important;
+    }
+
+    .img-overlay {
+        width: 77.50%;
+        height: 92%;
+        left: -1px;
+        text-align: center;
+        margin-left: 131px;
+    }
+
+    .image {
+        padding-left: 130px;
+    }
+
+    .folow-text h3::before {
+        width: 455px;
+    }
+
+    .down-text h5 {
+        padding-top: 0px;
+        padding-left: 128px;
+    }
+
+    .down-text p {
+        padding-left: 128px;
+    }
+
+    .gal-text {
+        padding-right: 90px;
+    }
+
+    .ft-h5 h5 {
+        padding-top: 30px;
+    }
+
+    .footer_blog {
+        padding-top: 14px;
+    }
+
+    .ga-item img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar {
+        padding: 30px !important;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 17px 0;
+        text-align: center;
+        background: currentColor;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before {
+        left: 195px;
+        width: 20%;
+    }
+
+
+    .banner-text {
+        padding: 115px 0;
+    }
+
+    .banner-text h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .banner-text h2 {
+        font-size: 40px;
+        color: #fff;
+    }
+
+    .about-text h4 {
+        padding-top: 75px;
+        padding-bottom: 15px;
+    }
+
+    .about-text p {
+        padding-bottom: 55px;
+    }
+
+    .single-item {
+        padding-bottom: 0;
+    }
+
+    .img-item img {
+        width: 100%;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+    }
+
+    .countup {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 64px;
+        color: #fff;
+    }
+
+    .counter-up {
+        padding: 0 0;
+        background: black;
+    }
+
+    .counter p {
+        font-size: 8px;
+    }
+
+    .work-area h4 {
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .work-area {
+        padding-bottom: 0;
+    }
+
+    .icon-text p {
+        font-size: 10px;
+    }
+
+    .icon-text-area {
+        padding-bottom: 15px;
+    }
+
+    .t-ext {
+        padding-left: 0;
+    }
+
+    .i-con img {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        display: none !important;
+    }
+
+    .footer_blog {
+        padding-top: 10px;
+    }
+
+    .blog-text {
+        padding-right: 85px;
+    }
+
+    .ft-h5 h5 {
+        padding-top: 30px;
+    }
+
+    .gal-text {
+        padding-right: 85px;
+    }
+
+    .folow-text h3::before {
+        width: 365px;
+    }
+
+    .ga-item img {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    
+   .navbar {
+	padding-top: 30px !important;
+}
+    .navbar .navbar-nav .nav-item {
+	padding: 20px 0;
+	text-align: center;
+	background: black;
+	width: 50%;
+}
+    .banner-text {
+	padding: 100px 0;
+	padding-right: 85px;
+}
+  .banner-text h1 {
+	font-size: 76px;
+	padding-bottom: 40px;
+	margin-bottom: 45px;
+	line-height: 80px;
+}
+    .banner-text h2 {
+	font-size: 50px;
+}
+ .about-text {
+	padding-right: 85px;
+}
+    .img-item img {
+	width: 100%;
+}
+    .about-img {
+	padding-bottom: 55px;
+}
+ .overlay {
+	width: 100%;
+	height: 92.5%;
+}
+.counter-up {
+	padding: 0 0;
+}
+    .work-text {
+	padding-left: 85px;
+}
+    .icon-text-area {
+	padding-bottom: 0;
+}
+ .left-arrow,
+    .right-arrow {
+        display: none !important;
+    }
+
+    .t-ext{
+        padding-left: 0px;
+    }
+.blog-text {
+	padding-right: 85px;
+}
+    .gal-text {
+	padding-right: 85px;
+}
+.ga-item {
+	width: 29.111%;
+	margin-left: 18px;
+	margin-bottom: 18px;
+}
+    .ga-item img {
+	width: 100%;
+}
+
+
+   .footer-gal p {
+	margin-left: 210px;
+}
+    
+    
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
